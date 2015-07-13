@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing">
+	<test name="firstTest">
+		<classes>
+			<class name="com.comarch.training.PositiveCases"></class>
+		</classes>
+	</test>
+	<test name="secondTest">
+		<classes>
+			<class name="com.comarch.training.FailingCases"></class>
+		</classes>
+	</test>
+</suite>
